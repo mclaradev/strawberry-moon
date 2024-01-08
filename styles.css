@@ -1,3 +1,7 @@
+:root {
+    --body-color: #d87093
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +23,7 @@ body {
 }
 
 a {
-    color: palevioletred;
+    color: var(--body-color);
 }
 
 h1, h2 {
@@ -65,7 +69,7 @@ h1, h2 {
 }
 
 .duvida h3 {
-    border: 2px solid palevioletred;
+    border: 2px solid var(--body-color);
     border-radius: 8px;
     cursor: pointer;
     display: block;
@@ -79,9 +83,9 @@ h1, h2 {
 }
 
 .duvida .paragrafo {
-    border-right: 1px solid palevioletred;
-    border-bottom: 1px solid palevioletred;
-    border-left: 1px solid palevioletred;
+    border-right: 1px solid var(--body-color);
+    border-bottom: 1px solid var(--body-color);
+    border-left: 1px solid var(--body-color);
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
     padding: 0 24px;
