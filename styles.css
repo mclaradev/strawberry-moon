@@ -27,16 +27,17 @@ a {
 }
 
 h1, h2 {
+    color: var(--body-color);
     text-align: center;
     font-weight: 600;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .paragrafo {
-    
-    line-height: 1.75;
-    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 150%;
+    margin: 2rem;
     font-size: 1.25rem;
 }
 
@@ -50,11 +51,6 @@ h1, h2 {
 
 #biografia {
     text-align: center;
-    margin-bottom: 2rem;
-}
-
-#biografia img {
-    padding: 2rem;
 }
 
 #duvidas {
